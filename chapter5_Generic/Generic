@@ -1,0 +1,10 @@
+	[Generic]
+	
+	기존
+	List list = new ArrayList();	
+	list.add("hello") -> object로 반환
+	String str = (String) list.get(0)
+	
+	generic : <String>
+	
+	

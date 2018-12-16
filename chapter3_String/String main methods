@@ -1,0 +1,25 @@
+	String 생성자
+	 - byte[] bytes 배열 -> 문자열로 변환
+ 	
+ 	* java의 string은 불변객체.. 수정 불가
+ 	
+ 	chartAt
+ 	getBytes()
+ 	indexOf()
+ 	replace
+ 	substring
+ 	toLowerCase() / toUpperCase()
+ 	trim()
+ 	valueOf()
+ 	
+ 	[StringTokenizer]
+ 		vs split()
+ 		while(st.hasMoreTokens() - iterator pattern
+ 		
+	[StringBuffer, StringBuilder]
+		멀티 스레드 : lock 걸 필요가 있음 - StringBuffer
+		단일 스레드 : 필요 없음 - StrintBuilder
+		
+		main methods
+			- append와 insert
+	
